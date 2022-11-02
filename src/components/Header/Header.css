@@ -1,0 +1,71 @@
+.chat-icon {
+  position: relative;
+  margin-top: 18px;
+}
+
+.chat-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #db383e;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.navbar {
+  padding: unset !important;
+  border-bottom: 1px solid #202836;
+  height: 61px;
+}
+
+.navbar-collapse,
+.navbar-nav {
+  height: 61px;
+}
+
+.chat-nav-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-left: 1px solid #454259;
+  border-right: 1px solid #454259;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.active-link-bar {
+  width: 85px;
+  height: 4px;
+  background: #00fec1;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+.header-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: unset;
+  color: #b5c1da;
+}
+
+.nav-item-div {
+  margin-top: 17px;
+  min-width: 85px;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+.username {
+  color: #cfcfcf;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.active {
+  color: #00fec1;
+}

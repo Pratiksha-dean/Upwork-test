@@ -1,0 +1,211 @@
+.dashboard-main-div {
+  background-color: #fbfbfc;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.dashboard-header {
+  /* margin-top: 100px;
+  padding: 0 60px; */
+  /* -webkit-clip-path: polygon(0 0, 100% 0%, 100% 30%, 0 30%);
+  clip-path: polygon(0 0, 100% 0%, 100% 30%, 0 30%); */
+  background-repeat: no-repeat;
+  /* background-size: 50% 100%; */
+  min-height: 300px;
+  padding: 0 60px;
+  padding-top: 60px;
+  background-color: #191726;
+}
+
+.welcome-text {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 48px;
+  color: #fbfbfc;
+}
+
+.employee-card {
+  border-color: #efefc8 !important;
+  background-color: #fffff3 !important;
+  border: 1px solid #efefc8 !important;
+  border-radius: 12px !important;
+}
+
+.employee-card-text {
+  color: #c6a101;
+}
+
+.employee-card-text,
+.graph-card-text,
+.mental-health-card-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.employee-card-title,
+.graph-card-title,
+.mental-health-card-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #070e12;
+}
+
+.graph-card {
+  background: #E9ECFA !important;
+  border: 1px solid #bfc7ed !important;
+  border-radius: 12px !important;
+}
+
+.graph-card,
+.mental-health-card,
+.employee-card {
+  height: 120px !important;
+  position: relative;
+}
+
+.employee-card img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  height: 60px;
+}
+
+.graph-card-text {
+  color: #445678;
+}
+
+.mental-health-card-text {
+  color: #1d7a47;
+}
+.mental-health-card {
+  background-color: #E9FAF5 !important;
+}
+.sub-div {
+  position: relative;
+  float: none;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-top: -120px;
+}
+.sub-heading {
+  color: #1e1f23;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.alert-msg {
+  background: linear-gradient(
+    90.02deg,
+    rgba(111, 234, 204, 0.15) 0.01%,
+    rgba(253, 255, 155, 0) 101.8%
+  );
+  border: 0.5px solid #55b59e;
+  border-radius: 8px;
+  display: flex;
+  padding: 0px 24px 0px 0px;
+  align-items: center;
+}
+
+.alert-msg-heading {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #191726;
+}
+
+.alert-msg-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #445678;
+}
+
+.alert-msg-bar {
+  background-color: #6feacc;
+  height: 52px;
+  width: 3px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.hand-with-heart {
+  margin: 15px;
+}
+
+.upcoming-appointments-table-heading {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #1e1f23;
+  margin: 20px 0 20px 0;
+}
+
+.upcoming-appointments-table {
+  border: 1px solid #e8ecf4;
+  border-radius: 12px;
+  border-collapse: unset;
+  margin-bottom: 0 !important;
+}
+
+.upcoming-appointments-table th {
+  color: #445678;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 14px 16px;
+}
+
+.upcoming-appointments-table thead {
+  background-color: #fbfbfc;
+}
+
+.date {
+  color: #070e12;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.time {
+  font-size: 12px;
+  line-height: 20px;
+  color: #445678;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e8ecf4 !important;
+  border-radius: 15px !important;
+}
+table.table.upcoming-appointments-table tr:last-child td {
+  border-bottom: 0px !important;
+}
+
+.join-meeting-btn {
+  color: #b6f2e1 !important;
+  border-color: #b6f2e1 !important;
+}
+
+nav.navbar.navbar-expand-lg {
+  background: #191726;
+}
+.graph-card, .mental-health-card, .employee-card {
+  height: 120px !important;
+  position: relative;
+}
+.dashboard-card img {
+  opacity: 0.3;
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.mental-health-card img {
+  width: 65px;
+}

@@ -1,0 +1,109 @@
+.gender-selection-main-div {
+  background-color: #191726;
+  height: 100%;
+  width: 100%;
+}
+
+.gender-selection-main-div .vertical-bar {
+  border-radius: 4px;
+  height: 4px;
+  width: 58px;
+  margin: 12px 4px;
+  background-color: #454259;
+}
+
+.question-label {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 33px;
+}
+
+.gender-dropdown {
+  background-color: #454259 !important;
+  color: #f9f9f9 !important;
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 20px;
+  width: 316px;
+  height: 40px;
+  border: 1px solid #454259 !important;
+  box-shadow: 0px 0px 0px 4px #232030 !important;
+  border-radius: 4px !important;
+  text-align: unset !important;
+}
+
+.tooltip-inner {
+  background-color: #454259 !important;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: #454259 !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+.gender-select .css-1s2u09g-control {
+  background: #252238;
+  /* Brand/Navy/200 */
+
+  border: 1px solid #454259;
+  box-shadow: 0px 0px 0px 4px #232030;
+  border-radius: 4px;
+}
+
+.css-26l3qy-menu {
+  border: 1px solid #454259;
+  background-color: #191726 !important;
+  margin-top: 34px !important;
+}
+
+.css-1jwi8f4-singleValue {
+  color: #f9f9f9 !important;
+}
+
+.select-msg {
+  color: #625f75;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 5px 0 5px 5px;
+}
+
+.continue-btn {
+  background: linear-gradient(90deg, #6feacc 0%, #fdff9b 100%);
+  width: 100%;
+  padding: 12px 16px;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 24px;
+  height: 48px;
+}
+
+.back-btn {
+  color: #c2c2c2 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.m-auto.genderselection {
+  max-width: 350px;
+  padding-top: 40px;
+  display: block;
+}
+
+.text-light.question-label.my-5 {
+  margin-top: 2rem !important;
+}
+
+ul.navbar-nav.m-auto.mb-2.mb-lg-0 {
+  padding-left: 115px;
+}
