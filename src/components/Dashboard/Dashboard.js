@@ -12,13 +12,12 @@ export default function Dashboard() {
         className="dashboard-header"
         style={{ backgroundImage: "url(/assests/Gradients.svg)" }}
       >
-          <div className="container">
-        <div className="welcome-text">Welcome back, Tania! 👋</div>
+        <div className="container">
+          <div className="welcome-text">Welcome back, Tania! 👋</div>
         </div>
       </div>
 
-      
-        <div className="container">
+      <div className="container">
         <div className="sub-div">
           <div className="card mb-3">
             <div className="card-body">
@@ -139,7 +138,14 @@ export default function Dashboard() {
                         <div className="date">Sept 22, 2022</div>
                         <div className="time">11:00 AM</div>
                       </td>
-                      <td>Otto</td>
+                      <td>
+                        {" "}
+                        <img
+                          className="mx-3"
+                          src="\assests\Avatar.svg"
+                          alt=""
+                        />
+                      </td>
                       <td>Therapist Session</td>
                       <td>
                         <button className="btn join-meeting-btn">
@@ -152,7 +158,14 @@ export default function Dashboard() {
                         <div className="date">Sept 22, 2022</div>
                         <div className="time">11:00 AM</div>
                       </td>
-                      <td>Otto</td>
+                      <td>
+                        {" "}
+                        <img
+                          className="mx-3"
+                          src="\assests\Avatar.svg"
+                          alt=""
+                        />
+                      </td>
                       <td>Therapist Session</td>
                       <td>
                         <button className="btn join-meeting-btn">
@@ -166,7 +179,14 @@ export default function Dashboard() {
                         <div className="date">Sept 22, 2022</div>
                         <div className="time">11:00 AM</div>
                       </td>
-                      <td>Otto</td>
+                      <td>
+                        {" "}
+                        <img
+                          className="mx-3"
+                          src="\assests\Avatar.svg"
+                          alt=""
+                        />
+                      </td>
                       <td>Therapist Session</td>
                       <td>
                         <button className="btn join-meeting-btn">
